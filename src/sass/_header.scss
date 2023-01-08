@@ -1,0 +1,56 @@
+.hed-inp {
+  width: 450px !important;
+  border: none;
+  // border-radius: 20px;
+}
+
+.hed-btn {
+  color: #000;
+  border-radius: 2px;
+  background: #FDD700;
+  border: 2px solid #FDD700;
+  padding: 5px 15px;
+}
+
+.log-btn {
+  text-decoration: none;
+  // background: #FDD700;
+  // border: 2px solid #FDD700;
+  padding: 5px 15px;
+  border-radius: 15px;
+  color: #000;
+  list-style: none;
+  font-size: 20px;
+}
+
+.log-btn:hover {
+  text-decoration: none;
+  // background: #FDD700;
+  // border: 2px solid #FDD700;
+  padding: 5px 15px;
+  border-radius: 15px;
+  color: #FDD700;
+  list-style: none;
+  
+}
+
+.cart-btn {
+  text-decoration: none;
+  // background: #FDD700;
+  // border: 2px solid #FDD700;
+  padding: 7px 15px;
+  border-radius: 15px;
+  color: #000;
+  list-style: none;
+}
+
+.cart-btn:hover {
+  text-decoration: none;
+  background: white;
+  // border: 2px solid #FDD700;
+  padding: 7px 15px;
+  border-radius: 15px;
+  color: #FDD700;
+  list-style: none;
+}
+

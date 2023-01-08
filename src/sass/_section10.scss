@@ -1,0 +1,26 @@
+.bgsec{
+  background-color: #FDD700;
+  .input {
+    width: 450px;
+    padding: 8px 30px;
+    // border-radius: 30px;
+    border: none;
+  }
+  .button {
+    width: 120px;
+    padding: 8px 20px;
+    border: none;
+    background-color: #333333;
+    color: #fff;
+    font-weight: bold;
+    // border-radius: 30px;
+  }
+}
+
+.fp {
+  font-weight: bold;
+}
+
+.fp:hover {
+  color: #049372;
+}

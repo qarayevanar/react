@@ -1,0 +1,79 @@
+
+    .formstyle {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+    }
+    h1 {
+      text-align: center;
+    }
+    input {
+      border: none;
+      border-bottom: 2px solid gray;
+      
+    }
+    .inpass{ 
+      width: 309px;
+    }
+
+
+    .logbtn{
+      background-color: #FDD700;
+      width: 152px;
+      height: 44px;
+      border: none;
+      border-radius: 30px;
+      font-weight: bold;
+    }
+    .iconf {
+      width: 30px;
+      height: 30px;
+      background-color: #3F5A99;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      a {
+        color: #fff;
+      }
+      
+    }
+    .icont {
+      width: 30px;
+      height: 30px;
+      background-color: #4B9FED;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      a {
+        color: #fff;
+      }
+    }
+    .icong {
+      width: 30px;
+      height: 30px;
+      background-color: #D95242;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      a {
+        color: #fff;
+      }
+    }
+
+  
+
+
+  .login-inp {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+  }
+
+  .inplog {
+    width: 400px;
+  }
+

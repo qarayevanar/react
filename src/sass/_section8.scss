@@ -1,0 +1,46 @@
+.card1  {
+  position: relative;
+  // height: 350px;
+  // width: 350px;
+  // margin: 10% auto 0;
+  color: #fff;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+  img {
+    position: absolute;
+    left: 0;
+    width: 200px;
+    // width: 350px;
+    // height: 350px;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+  }
+}
+.card1  img.sfront:hover {
+    opacity:0;
+    cursor: pointer;
+}
+
+
+
+
+
+.c1-text {
+  position: relative;
+  top: 300px;
+}
+
+
+.c1-btn {
+  border: none;
+  padding: 4px 10px;
+}
+
+.c1-btn:hover {
+  border: none;
+  padding: 4px 10px;
+  background-color: #FDD700;
+  transition: 1s;
+}
