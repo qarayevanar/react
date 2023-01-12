@@ -25,7 +25,6 @@ import myphoto from '../img/logo_1.webp';
                   </ul>
                   <div className="d-flex" role="search">
                     <Link to="cart" className='cart-btn me-3'><i class="fa-solid fa-cart-shopping "></i>({totalItems})</Link>
-                    <Link to="wishlist" className='cart-btn me-3'><i class="fa-solid fa-heart"></i>({totalItems})</Link>
                     <Link to="Login" className="log-btn" type="submit"><i class="fa-regular fa-user"></i></Link>
                   </div>
                 </div>

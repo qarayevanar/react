@@ -24,17 +24,17 @@ export class Nav extends Component {
                     <li className="nav-item">
                       <NavLink className="nav-link fw-bold"  to="about">Shipping & Returns</NavLink>
                     </li>
-                    {/* <li className="nav-item">
-                      <NavLink className="nav-link "  to=".">Home</NavLink>
-                    </li> */}
-                    <li className="nav-item">
-                      <NavLink className="nav-link fw-bold"  to="products">Products</NavLink>
-                    </li>
                     <li className="nav-item">
                       <NavLink className="nav-link fw-bold"  to="contact">Contact Us</NavLink>
                     </li>
                     <li className="nav-item">
                       <NavLink className="nav-link fw-bold"  to="contact">Blog</NavLink>
+                    </li>
+                    <li className="nav-item">
+                      <NavLink className="nav-link fw-bold"  to="filter">Filter</NavLink>
+                    </li>
+                    <li className="nav-item">
+                      <NavLink className="nav-link fw-bold"  to="category">Category</NavLink>
                     </li>
                   </ul>
                 </div>

@@ -4,7 +4,7 @@ class Section5 extends Component {
 
   render(){
     return (
-       <div className="container my-5">
+       <div className="container pt-5 my-5">
         <div className="row g-5 d-flex justify-content-between">
           <div className="col-12 col-sm-12 col-md-4 sec5-one">
           <div className="mt-5 ms-2">

@@ -32,37 +32,35 @@ const Cart = () => {
       <th scope="col">Id</th>
       <th scope="col">Photo</th>
       <th scope="col">Title</th>
-      <th scope="col">Category</th>
       <th scope="col">Price</th>
       <th scope="col">Summary</th>
-      <th scope="col ">Quantity</th>
+      <th scope="col">Quantity</th>
       <th scope="col">Delete</th>
     </tr>
   </thead>
   <tbody>
-    {items.map((fd,i)=>(
+    {items.map((item,i)=>(
           <tr>
-          <th scope="row">{fd.id}</th>
-          <td><img src={fd.image} width="50" alt="" /></td>
-          <td>{fd.title}</td>
-          <td>{fd.category}</td>
-          <td>{fd.price}$</td>
-          <td >{(fd.price *fd.quantity).toFixed(2)}</td>
+          <th scope="row">{item.id}</th>
+          <td><img src={item.image} width="50" alt="" /></td>
+          <td>{item.title}</td>
+          <td>{item.price}$</td>
+          <td >{(item.price *item.quantity).toFixed(2)}</td>
           <td >
             
           <button className='btn btn-primary'
-              onClick={() => updateItemQuantity(fd.id, fd.quantity + 1)}
+              onClick={() => updateItemQuantity(item.id, item.quantity + 1)}
             >
               +
             </button>
-          <span className='mx-2'>{fd.quantity} x {fd.name} </span>
+          <span className='mx-2'>{item.quantity} x {item.name} </span>
           <button className='btn btn-primary'
-              onClick={() => updateItemQuantity(fd.id, fd.quantity - 1)}
+              onClick={() => updateItemQuantity(item.id, item.quantity - 1)}
             >
               -
             </button>
           </td>
-          <td><button className='btn btn-danger' onClick={()=>{notify(removeItem(fd.id))}}>&times;</button>
+          <td><button className='btn btn-danger' onClick={()=>{notify(removeItem(item.id))}}>&times;</button>
                       <ToastContainer
                  position="bottom-right"
                  autoClose={5000}

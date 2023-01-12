@@ -150,6 +150,10 @@ ul {
   border-bottom: 2px solid #059473;
 }
 
+.single {
+  margin-bottom: 250px;
+}
+
 .card1 {
   position: relative;
   color: #fff;
